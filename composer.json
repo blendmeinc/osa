@@ -52,7 +52,7 @@
         "drupal/ui_patterns": "^1.0",
         "drupal/video_embed_field": "^2.0",
         "drupal/views_send": "^1.1",
-        "drupal/webform": "5.x-dev",
+        "drupal/webform": "^5.0",
         "drupal/webform_views": "^5.0@alpha",
         "drupal/zurb_foundation": "^6.0",
         "drush-ops/behat-drush-endpoint": "^0.0.5",
