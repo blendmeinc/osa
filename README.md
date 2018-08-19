@@ -1,3 +1,15 @@
+# Open Society and Association (OSA)
+The OSA distribution is a Drupal 8 application that provides organizations a way to management user memberships and organize committees and special interests groups. 
+
+Features include:
+* Managing and processing user memberships
+* Exclusive content to members only
+* Private members only groups to for committees or speical interest groups
+* Event Pages that includes registration with online payment processing
+* Members only Contact Directory, Job Board Posting and Resources. 
+
+
+
 # Example Drops 8 Composer
 
 [![CircleCI](https://circleci.com/gh/pantheon-systems/example-drops-8-composer.svg?style=shield)](https://circleci.com/gh/pantheon-systems/example-drops-8-composer)
