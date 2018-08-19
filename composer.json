@@ -20,6 +20,7 @@
         "drupal/commerce": "^2.8",
         "drupal/commerce_license": "^2.0@alpha",
         "drupal/commerce_recurring": "^1.0@beta",
+        "drupal/components": "^1.0",
         "drupal/config_direct_save": "^1.0",
         "drupal/config_installer": "^1.0",
         "drupal/console": "^1",
@@ -54,10 +55,10 @@
         "drupal/webform": "5.x-dev",
         "drupal/webform_views": "^5.0@alpha",
         "drupal/zurb_foundation": "^6.0",
-        "drush/drush": "~8",
-        "rvtraveller/qs-composer-installer": "^1.1",
         "drush-ops/behat-drush-endpoint": "^0.0.5",
+        "drush/drush": "~8",
         "pantheon-systems/quicksilver-pushback": "~1",
+        "rvtraveller/qs-composer-installer": "^1.1",
         "webflo/drupal-core-strict": "^8"
     },
     "require-dev": {
@@ -136,6 +137,15 @@
                 ".htaccess",
                 "web.config"
             ]
+        },
+
+        "patches": {
+            "drupal/core": {
+                "Views integration of Datetime Range fields": "https://www.drupal.org/files/issues/2786577-8.4.4.patch"
+            },
+            "drupal/context": {
+                "Adds User Condition": "https://www.drupal.org/files/issues/context_user_profile_page_condition.patch"
+          }
         }
     },
     "config": {
